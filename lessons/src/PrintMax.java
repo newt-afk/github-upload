@@ -6,12 +6,10 @@ public class PrintMax {
 		// TODO Auto-generated method stub
 		Scanner s = new Scanner(System.in);
 		System.out.print("time to compare ");
-		double a = Double.parseDouble(s.next());
+		double a = s.nextDouble();
 		System.out.print("to ");
-		double b = Double.parseDouble(s.next());
-		System.out.println(Double.max(a, b));
+		double b = s.nextDouble();
+		System.out.println(Double.max(a, b) + "is bigger");
 		s.close();
-
 	}
-
 }
